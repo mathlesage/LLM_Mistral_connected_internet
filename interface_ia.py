@@ -1,17 +1,12 @@
 import io
-from bs4 import BeautifulSoup
 import requests
 import fitz
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np
-from openai import OpenAI
 from docx import Document
-from docx.shared import Inches
 from mistralai import Mistral
-import psutil
-import time
-from pathlib import Path
+from bs4 import BeautifulSoup
+
 NOMBRE_URL_PRIS = 10
 
 
