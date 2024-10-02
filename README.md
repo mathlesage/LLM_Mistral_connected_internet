@@ -23,14 +23,15 @@ Ce projet est un système de recherche d'information basé sur la méthode du **
 
 Avant d'utiliser ce projet, assurez-vous d'avoir installé les dépendances suivantes :
 
-    Python 3.x
-    Packages requis (disponibles dans requirements.txt)
+  Python 3.x
+  Packages requis (disponibles dans requirements.txt)
 
 Pour installer les dépendances :
 
-bash
 
+```
 pip install -r requirements.txt
+```
 
 Utilisation
 Version en ligne de commande (mistral_internet.py)
