@@ -1,4 +1,4 @@
-# Mistral_connected_internet
+# LLM_Mistral_connected_internet
 
 Ce projet est un système de recherche d'information basé sur la méthode du **Retrieval-Augmented Generation (RAG)**, conçu pour interroger des données directement trouvées sur Internet et fournir des réponses précises à l'aide des modèles **Mistral**. Le processus consiste à sélectionner les informations les plus pertinentes à l'aide de la cos-similarité et d'un modèle d'embedding, puis de les faire passer dans un LLM pour générer des réponses complètes, accompagnées des sources et des URL des sites d'où proviennent les données.
 
