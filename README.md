@@ -62,4 +62,4 @@ Version avec interface graphique (interface_ia.py)
 Les contributions sont les bienvenues ! N'hésitez pas à soumettre des pull requests ou à signaler des problèmes via les issues.
 
 
-Ce projet est sous licence MIT
+Ce projet est sous licence [MIT](https://github.com/mathlesage/Mistral_connected_internet/blob/main/LICENSE).
