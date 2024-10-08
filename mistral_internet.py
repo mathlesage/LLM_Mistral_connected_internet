@@ -5,13 +5,16 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from openai import OpenAI
-MODEL = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 from docx import Document
 from docx.shared import Inches
 from mistralai import Mistral
 import psutil
 import time
 from pathlib import Path
+# Model "paraphrase-MiniLM-L6-v2", "all-mpnet-base-v2", "sentence-t5-large"
+MODEL = SentenceTransformer('paraphrase-MiniLM-L6-v2')
+
+# Autre model possible "open-mistral-7b", "mistral-small-2409", "mistral-large-2407"
 MODEL_LLM = "open-mistral-7b"
 # Obtenir le chemin complet du fichier courant
 FILE = Path(__file__).resolve().parent
