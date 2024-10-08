@@ -54,9 +54,9 @@ Version avec interface graphique (interface_ia.py)
 
 Pour utiliser ce projet, vous aurez besoin de deux clés d'API :
 
-    Clé Google : Une clé gratuite est nécessaire pour effectuer les 100 premières requêtes. Vous pouvez obtenir cette clé via la Console Google Cloud.
+  Clé Google : Une clé gratuite est nécessaire pour effectuer les 100 premières requêtes. Vous pouvez obtenir cette clé via la Console Google Cloud.
 
-    Clé Mistral : Une clé d'API pour Mistral est également requise. Veuillez suivre les instructions fournies par Mistral pour obtenir cette clé.
+  Clé Mistral : Une clé d'API pour Mistral est également requise. Veuillez suivre les instructions fournies par Mistral pour obtenir cette clé.
 
 ### Structure du projet
 
