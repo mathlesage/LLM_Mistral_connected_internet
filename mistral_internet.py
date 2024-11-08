@@ -11,6 +11,14 @@ from mistralai import Mistral
 import psutil
 import time
 from pathlib import Path
+import config
+
+_api_config = config.get_api_config()
+cle_google = _api_config['cle_google']
+cle_mistral = _api_config['api_endpoint']
+
+
+
 # Model "paraphrase-MiniLM-L6-v2", "all-mpnet-base-v2", "sentence-t5-large"
 MODEL = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
@@ -69,14 +77,13 @@ def compare_sentences(sentence1: str, sentence2: str)->float:
     return similarity[0][0]
 
 def transformer(sentence1:str)->float:
-    """Compare la cos similarité entre deux phrases
+    """Transformer une phrase en vecteur
 
     Args:
         sentence1 (str): phrase 1
-        sentence2 (str): phrase 2
 
     Returns:
-        float: la cosimilarité
+        float: le vecteur associé à la phrase
     """    
     # On utilise un modèle SBert assez léger car j'ai un caillou
     
