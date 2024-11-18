@@ -57,6 +57,8 @@ Pour utiliser ce projet, vous aurez besoin de deux clés d'API :
   Clé Google : Une clé gratuite est nécessaire pour effectuer les 100 premières requêtes. Vous pouvez obtenir cette clé via la Console Google Cloud.
 
   Clé Mistral : Une clé d'API pour Mistral est également requise. Veuillez suivre les instructions fournies par Mistral pour obtenir cette clé.
+  
+  Une fois les clés obtenues, vous devrez les entrer dans le fichier config.json, qui se trouve dans le dossier .config à la racine du projet.
 
 ### Structure du projet
 
